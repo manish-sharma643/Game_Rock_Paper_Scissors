@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.heading{
+    height: 60px;
+    width: 100vw;
+    background-color: rgb(11, 11, 39);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+@media (max-width : 400px){
+    h1{
+        height: 40px;
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+@media (max-width : 400px){
+    .choice{
+        height: 60px;
+        width: 60px;
+    }
+}
+#rock{
+    background-image: url(stone_final.png);
+    background-size: cover;
+}
+#rock:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+}
+#paper{
+    background-image: url(OIP.jpeg);
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#paper:hover{
+    box-shadow: 0px 0px 20px 0px aqua;
+}
+#scissors{
+    background-image: url(scissor.png);
+    background-size: cover;
+}
+#scissors:hover{
+    box-shadow: 0px 0px 20px 0px white;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    color: rgb(167, 221, 249);
+    font-weight: bold;
+    margin-left: 55px;
+    gap: 40px;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+#msg{
+    padding: 6px;
+    background-color: rgb(34, 34, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
